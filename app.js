@@ -110,10 +110,10 @@ app.use("/campgrounds/:id/comments", commentRoutes);
 
 ///////////////////////////////////////////////////////////////////
 
-app.listen(6000, function(){
+var port = process.env.PORT || 6000;
+
+app.listen(port, function () {
 	
+  console.log("Server Has Started!");
 	
-	console.log("Yelp Camp start!")
-	
-	
-}); 
+});
