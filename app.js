@@ -42,7 +42,10 @@ mongoose.set('useUnifiedTopology', true);
 
 mongoose.set('useFindAndModify', false);
 
-mongoose.connect("mongodb://localhost/yelp_webdev");
+//mongoose.connect("mongodb://localhost/yelp_webdev");
+
+mongoose.connect("mongodb+srv://dbUser:qfOn6e9TDAWKhceI@cluster0-dcsyf.mongodb.net/test?retryWrites=true&w=majority");
+
 
 app.use(bodyParser.urlencoded({extended: true}));
 
