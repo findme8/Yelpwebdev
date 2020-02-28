@@ -6,5 +6,5 @@
  
  - Developed responsive web app with  Bootstrap, Express, MongoDB on goormIDE
  
- - RESTful API, user authentication, password reset, comment, user
+ - RESTful API, user signup, user authentication, password reset, comment, user
 profile, and flash message
